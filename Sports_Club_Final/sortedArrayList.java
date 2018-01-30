@@ -2,7 +2,7 @@ import java.util.*;
 /**
  * Class sortedArrayList <E> extends Arraylist<E>
  * A class to store type <E> objects sorted alphabetically in ascending order.
- * @Dimitrios Parzigkas
+ * @Dimitrios P.
  * 6 December 2017
  */ 
 public class sortedArrayList<E> extends ArrayList<E> 
