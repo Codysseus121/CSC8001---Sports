@@ -2,7 +2,7 @@ import java.util.*;
 /**
  * Class Customer 
  * Details of the customers of a Sports Club. 
- * @Dimitrios Parzigkas
+ * @Dimitrios P.
  * @8 Dec 2017
  */
 public class Customer implements Comparable <Customer>
