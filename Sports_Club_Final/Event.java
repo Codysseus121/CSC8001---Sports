@@ -3,7 +3,7 @@
  * Class Event is a class designed to create objects containing information about athletic events.
  * It includes simple methods to set event name, tickets available, print a list of events and store events in ascending 
  * alphabetical order. It implements the Comparable interface.
- * Dimitrios Parzigkas
+ * Dimitrios P.
  * 12-12-2017
  */
 public class Event implements Comparable <Event>
