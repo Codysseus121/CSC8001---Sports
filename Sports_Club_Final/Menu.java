@@ -5,7 +5,7 @@ import java.io.*;
  * Class Menu: a class to display on the screen an interactive menu.
  * Reads input from a file and allows the user to add/remove events from the records of registered customers,
  * to display all events and registered customers, and to send messages to users if no more tickets are available. 
- * Dimitrios Parzigkas
+ * Dimitrios P.
  * 14-12-2017
  */
 public class Menu
@@ -127,7 +127,7 @@ public class Menu
         }
         else
         {
-            System.out.println("Sorry, no tickets left for this event.");
+            
             PrintWriter outFile = new PrintWriter ("/home/codysseus/TicketsUnavailableMessage.txt");
             outFile.print("Dear ");
             outFile.println(c.getFullName());
