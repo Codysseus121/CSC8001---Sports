@@ -10,7 +10,7 @@ public class Customer implements Comparable <Customer>
 
     private String firstName;
     private String Surname;
-    private sortedArrayList<Event> listOfEvents;
+    private SortedArrayList<Event> listOfEvents;
 
     /**
      * Constructor for objects of class Customer
@@ -19,7 +19,7 @@ public class Customer implements Comparable <Customer>
     {
         firstName=name1;
         Surname=name2;
-        this.listOfEvents = new sortedArrayList<Event>();
+        this.listOfEvents = new SortedArrayList<Event>();
 
     }
 
@@ -87,9 +87,9 @@ public class Customer implements Comparable <Customer>
     }
 
     /**A method to get this customer's list of events.
-     * Returns a sortedArrayList object
+     * Returns a SortedArrayList object
      */
-    public sortedArrayList getList()
+    public SortedArrayList getList()
     {
 
         return listOfEvents;
