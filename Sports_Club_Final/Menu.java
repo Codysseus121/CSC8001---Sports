@@ -10,8 +10,8 @@ import java.io.*;
  */
 public class Menu
 {
-    private static sortedArrayList <Event> events=new sortedArrayList<Event>(); 
-    private static sortedArrayList <Customer> customers=new sortedArrayList<Customer>();
+    private static SortedArrayList <Event> events=new SortedArrayList<Event>(); 
+    private static SortedArrayList <Customer> customers=new SortedArrayList<Customer>();
     private static Scanner sc=new Scanner(System.in);
     private static PrintWriter outFile;
 
