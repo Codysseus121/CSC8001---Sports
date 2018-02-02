@@ -5,12 +5,12 @@ import java.util.*;
  * @Dimitrios P.
  * 6 December 2017
  */ 
-public class sortedArrayList<E> extends ArrayList<E> 
+public class SortedArrayList<E> extends ArrayList<E> 
 {
      /**
      * Constructor for objects of class SortedArrayList
      */
-    public sortedArrayList()
+    public SortedArrayList()
     {
         
     }
@@ -23,9 +23,9 @@ public class sortedArrayList<E> extends ArrayList<E>
     public void insert(E element)
     {
         int location;
-        for (location=0; location<sortedArrayList.super.size();location++)
+        for (location=0; location<size();location++)
         {
-            Comparable <E> temp = (Comparable<E>) sortedArrayList.super.get(location);
+            Comparable <E> temp = (Comparable<E>) get(location);
             if (temp.compareTo(element)>=0)
             {
                 break;
@@ -34,7 +34,7 @@ public class sortedArrayList<E> extends ArrayList<E>
 
         }
 
-        sortedArrayList.super.add(location, element);
+        add(location, element);
     }
 
 } 
